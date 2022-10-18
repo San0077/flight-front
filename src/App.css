@@ -1,0 +1,115 @@
+body{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  background-color:whitesmoke;
+}
+.app{
+  display:flex;
+  background-color:#0D1148;
+  
+}
+.menu-links{
+  display:flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height:100vh;
+  width:250px;
+  color: white;
+  
+  
+}
+.logo{
+  
+  width:250px;
+  font-size:25px;
+  color:white;
+  text-align:center;
+  text-decoration: underline;
+}
+.nav-links{
+  display:flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-top: 8px;
+  list-style: none;
+  width:100%;
+  
+}
+.home,.sign{
+  text-decoration: none;
+  color:white;
+  font-size: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+
+.mobile-icons{
+  display:none;
+}
+.home.active{
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: red;
+  margin-left:15px;
+}
+.nav2-links{
+  display:flex;
+  justify-content: flex-start;
+  list-style: none;
+  width:80%;
+  margin-top: 8px;
+ 
+}
+.fields{
+  width: 100%;
+  height:100vh;
+  margin:10px;
+  display: flex;
+  border-radius: 20px;
+  background-color: #DADEE3;
+
+}
+ .boarding{
+  width: 50%;
+  height:600px;
+  border-radius: 40px;
+  margin:5px;
+  background-color: white;
+}
+.flightInputs{
+  width: 80%;
+  height:100%;
+  display:flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-left: 25px;
+}
+.flightTickets{
+  width: 50%;
+  height:600px;
+  background-color: white;
+  border-radius: 40px;
+  margin:5px;
+  overflow-y: scroll;
+}
+.tickets{
+  width:300px;
+  height:275px;
+  background-color:rgb(48, 48, 131);
+  color:white;
+  border-radius: 15px;
+  margin-top: 20px;
+  padding: 10px;
+  
+}
+.flightTickets:nth-child(2){
+  display:flex;
+  width:50%;
+  flex-direction: column;
+  align-items: center;
+
+}
